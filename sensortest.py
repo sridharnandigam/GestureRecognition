@@ -29,8 +29,8 @@ def sensorsReceivedEventHandler(sender, dataCurrent):
     first = x[0].strip()
     second = x[1].strip()
     third = x[2].strip()
-    something = first + "," + second + "," + third + ",0" + "\n"
-    with open('user30.txt', 'a+') as f:
+    something = str(26) + "," + str(currenttime) + "," + first + "," + second + "," + third + ",waving" + "\n"
+    with open('user26.txt', 'a+') as f:
         f.write(something)
 
 def cameraReceivedEventHandler(sender, image):
