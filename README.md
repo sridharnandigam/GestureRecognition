@@ -1,6 +1,6 @@
 # Gesture Recognition using LSTM models and Accelerometer Data
 
-Contributers: @sridharnandigam, @175552, and @SunghuJustinKim 
+Contributors: @sridharnandigam, @175552, and @SunghuJustinKim 
 
 ## Project Concept
   - As the title suggests, this project uses a Keras LSTM model to recognize gestures with accelerometer data from an Android device.
