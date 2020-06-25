@@ -24,12 +24,12 @@ Contributors: @sridharnandigam, @175552, and @SunghuJustinKim
   1. In order to create your own dataset, you will need an Android device and a Python editor (Pycharm recommended).
   2. Download Pycharm
   3. Load the code with Pycharm
-  4. From the command line, run 'pip install sensor droids' to install the necessary packages for the program.
+  4. From the command line, run `pip install sensor droids` to install the necessary packages for the program.
   5. Looking back onto the code, it should have 
-  '''
+  ```
   (something = str(25) + ",gestures," + str(int(currenttime)) + "," + first + "," + second + "," + third + ";" + "\n")
   with open('test.txt', 'a+') as f:
-  '''
+  ```
   6. Edit the “gestures” based on the name of the gesture being recorded  and the text field can be edited for better organization
   7. Install the Sensor Droid application on Anroid from the Google Play Store.
   8. Using a USB cable, connect your Android device to your computer
