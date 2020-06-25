@@ -10,11 +10,17 @@
 ## Getting started
 ### Edit the model
   1. To work with the model efficiently, you will need to use either Jupyter Notebooks or Google Colab. Colab is recommended because of access to a GPU and easier team collaboration.
-  2. You can simply click the "Open with Colab" option on the Github file and get started right away!
-  3. Download the gesture_data.csv file and upload it into the Google Colab runtime so that you will be able to access its contents.
+  2. Fork the repository to be able to make your own edits.
+  3. Open the file **"gesture_rec_model.ipynb"** file in Colab. You can simply click the "Open in Colab" option on Github to be able to edit and access the file.
+  4. Download the gesture_data.csv file and upload it into the Google Colab runtime. By doing this the Colab notebook will be able to access the data.
+  5. Run each cell to ensure that the code works. The results of what the cell output should look like are shown in the Github repo.
+  
 ### Creating the dataset
   1. In order to create your own dataset, you will need an Android device and a Python editor (Pycharm or Visual Studio Code recommended)
-  2. Follow the documentation instructions and make sure that the csv file is formatted properly
+  2. Download the sensortest.py and save it to a seperate folder.
+  3. Install Pycharm, a free IDE that can be used to edit Python code.
+  4. Open the sensortest.py with PyCharm.
+  5. Follow the documentation instructions and make sure that the csv file is formatted properly
   
 ## What's next
   To those who intend to continue this project, there are many changes yet to be made.
